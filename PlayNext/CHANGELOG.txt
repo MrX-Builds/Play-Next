@@ -1,0 +1,35 @@
+PLAY NEXT CHANGELOG
+===================
+
+1.1.1 - 2026-11-02
+------------------
+
+- Fixed Shift+N selection in Similar Scenes and lightweight/card-carousel
+  layouts that do not use Stash's main .scene-card wrapper.
+- Added conservative nearest-single-scene-link detection for skin and plugin
+  compatibility.
+- Added a pink hover outline so keyboard selection readiness is visible.
+
+1.1.0 - 2026-11-02
+------------------
+
+- Shift+N now appends multiple scenes to an ordered override queue.
+- Selecting an already queued scene removes it without affecting playback.
+- Added ordered status, per-scene Remove buttons, and Clear all / Clear
+  remaining controls.
+- Next and natural completion advance through every override before restoring
+  the original Stash queue.
+- Previous moves backward through overrides and then returns to the source
+  scene.
+- Migrates an existing pending v1.0 single-slot override automatically.
+
+1.0.0 - 2026-11-02
+------------------
+
+- Initial release.
+- Shift+N hover-to-queue interaction with no mouse-button interception.
+- Single replaceable slot; same-scene toggle, Shift+Alt+N, and visible Cancel.
+- One-shot ScenePlayer Next/end override followed by original-queue restore.
+- Native queue insertion and visible player-queue status.
+- Same-origin cross-window coordination.
+- Read-only scene lookup; no Stash metadata or database mutations.

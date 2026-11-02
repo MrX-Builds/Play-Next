@@ -1,0 +1,10 @@
+- id: PlayNext
+  name: Play Next
+  version: 1.1.1
+  date: 2026-11-02
+  path: https://github.com/MrX-Builds/Play-Next/releases/download/v1.1.1/PlayNext_v1.1.1.zip
+  sha256: 857b5656d2e534f30c0ffe51d26089217fbe5f8fadf5359856b5465363d76232
+  metadata:
+    description: Queue hovered scenes as ordered one-shot overrides in Stash, then resume the original player queue.
+    homepage: https://github.com/MrX-Builds/Play-Next
+
